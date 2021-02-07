@@ -1,0 +1,13 @@
+[package]
+name = "cet_service"
+version = "0.1.0"
+authors = ["Yamashi"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.2.0", features = ["full"] }
+hyper = { version = "0.14.4", features = ["full"] }
+futures-util = "0.3"
+url = "2.1"
+json = "0.12"
+async-std = "*"
